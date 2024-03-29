@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <style>
+      .feature-icon {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 0.75rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="p-3 text-bg-tertiary">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            id="moveit"
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-light fw-bold text-decoration-none"
+          >
+            <img
+              src="./box-seam.svg"
+              alt="Box company logo"
+              height="30px"
+            />Move It
+          </a>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center ms-5 mb-md-0"
+          >
+            <li><a href="#" class="nav-link px-2 text-light">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-light">Features</a></li>
+            <li><a href="#" class="nav-link px-2 text-light">Pricing</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">FAQs</a></li>
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Have Fun</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input
+              type="search"
+              class="form-control form-control-dark text-bg-"
+              placeholder="Postcode"
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-dark me-2">
+              Login
+            </button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis">
+        Moving Made Effortless
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Welcome to Moveit - Your Trusted Moving Partner! At Moveit, we
+          understand that relocating can be a daunting task. That's why we're
+          here to make your move a breeze. With our professional team and
+          dedication to excellence, we provide reliable and efficient moving
+          services tailored to your needs. Say goodbye to the stress of moving
+          and hello to a seamless transition with Moveit by your side.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+            Get a Quote
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Contact
+          </button>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh">
+        <div class="container px-5">
+          <img
+            id="moveitco"
+            src="./pexels-tima-miroshnichenko-6169668.jpg"
+            class="img-fluid border rounded-3 shadow-lg mb-4"
+            alt="Example image"
+            height="41%"
+            width="500px"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">Included Features</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+            <img src="./briefcase.svg" alt="briefcase svg icon" height="30" />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Professional</h3>
+          <p>
+            Our moving company exemplifies professionalism in every aspect of
+            our service. With a dedicated team trained to handle your move with
+            care and efficiency, we prioritize clear communication, punctuality,
+            and attention to detail. Trust us for a seamless and stress-free
+            relocation experience, from start to finish.
+          </p>
+          <a href="#" class="icon-link">
+            Get a Quote
+            <img src="./chevron-right.svg" alt="chevron right" />
+          </a>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+            <img
+              src="./bus-front.svg"
+              alt="bus front avg countrywide"
+              height="30"
+            />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Countrywide</h3>
+          <p>
+            Our moving company operates nationwide, ensuring reliable relocation
+            services wherever you are. With a vast network of resources and
+            experienced teams across the country, we provide seamless moves from
+            coast to coast. Trust us for convenient and accessible moving
+            solutions tailored to your needs, no matter the location.
+          </p>
+          <a href="#" class="icon-link">
+            Get a Quote
+            <img src="./chevron-right.svg" alt="chevron right" />
+          </a>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+            <img
+              src="./chat-square-heart.svg"
+              alt="chat square heart svg personal touch"
+              height="30"
+            />
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Personal Touch</h3>
+          <p>
+            We believe in adding a personal touch to every relocation
+            experience. From attentive customer service to customized moving
+            plans, we prioritize understanding your unique needs. Our dedicated
+            team goes the extra mile to ensure a personalized and stress-free
+            move, making you feel right at home throughout the process.
+          </p>
+          <a href="#" class="icon-link">
+            Get a Quote
+            <img src="./chevron-right.svg" alt="chevron right" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container ps-5 pe-5 justify content-center align items-center">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./pexels-cottonbro-studio-4569340.jpg"
+              class="d-block w-100"
+              alt="Family After Moving Done"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./pexels-mart-production-7415039.jpg"
+              class="d-block w-100"
+              alt="Family After Moving Done"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./pexels-anastasia-shuraeva-5482200.jpg"
+              class="d-block w-100"
+              alt="Family After Moving Done"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
